@@ -94,6 +94,7 @@ nav i{
     flex-wrap: wrap;
 }
 .picture img{
+    box-sizing: border-box;
     width: 369px;
     margin-bottom: 8px;
 }
@@ -105,10 +106,15 @@ nav i{
     margin-left: -4px;
 }
 .picture{
+    box-sizing: border-box;
     width: 58.33333%;
 }
 .inof{
+    box-sizing: border-box;
     width: 41.66666%;
+}
+.prl-12{
+    padding: 0 12px;
 }
 .default{
     font-weight: 500;
@@ -131,6 +137,225 @@ nav i{
 .mr-12{
     margin-right: 12px;
 }
-.mrl--12{
-    margin: 0 -12px;
+.mb-12{
+    margin-bottom: 12px;
+}
+h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #212529;
+}
+.discout{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #57A203;
+}
+.old{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    text-decoration: line-through;
+    color: #ADB5BD;
+    padding: 1.5px 0;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mr-8{
+    margin-right: 8px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.p1{
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #212529;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.color img{
+    width: 64px;
+}
+.fd-c{
+    flex-direction: column;
+}
+.ai-c{
+    align-items: center;
+}
+.mb-4{
+    margin-bottom: 4px;
+}
+.color span{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #6C757D;
+}
+.size a{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    padding: 12px 24px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    color: #212529;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+.size .active{
+    border: 1px solid #212529;
+}
+.size .default{
+    border: 1px solid #DEE2E6;
+    color: #E9ECEF;
+}
+.p-red{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #D74F4F;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.btn i{
+    width: 20px;
+    padding: 2px 0;
+    margin-right: 8px;
+}
+.btn span{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #212529;
+}
+.btn .black span{
+    color: white;
+}
+.btn .black i{
+    color: white;
+}
+.white{
+    padding: 12px 77px;
+    background-color: white;
+    border: 1px solid #212529;
+    border-radius: 4px;
+}
+.black{
+    padding: 12px 60px;
+    background-color: #212529;
+    border: 1px solid #212529;
+    border-radius: 4px;
+}
+.mr--4{
+    margin-right: -4px;
+}
+.ml--4{
+    margin-left: -4px;
+}
+.accordion .gray{
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #6C757D;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #DEE2E6;
+}
+.accordion .title{
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #212529;
+}
+h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #212529;
+    padding: 9.5px 0;
+    margin-bottom: 16px;
+}
+.btn2{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: white;
+    background-color: #212529;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.ad{
+    background-color: #E8FEC5;
+    height: 96px;
+}
+.ad .title span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #212529;
+    font-family: "Noto Sans TC", sans-serif;
+}
+.mtb-24{
+    margin: 24px 0;
+}
+.jc-c{
+    justify-content: center;
+}
+.ptb-64{
+    padding: 64px 0;
+}
+footer .item{
+    padding-bottom: 24px;
+    border-bottom: 1px solid #DEE2E6;
+}
+.copyright{
+    padding-top: 32px;
+    text-align: center;
+}
+.copyright p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #6C757D;
+    font-family: "Noto Sans TC", sans-serif;
+}
+.mr-24{
+    margin-right: 24px;
+}
+.maybe1{
+    width: 306px;
+}
+.maybe1 img{
+    width: 306px;
+    margin-bottom: 12px;
+}
+.maybe1 p{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #212529;
+}
+.maybe1 .title{
+    margin-bottom: 4px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.mb-88{
+    margin-bottom: 88px;
 }
